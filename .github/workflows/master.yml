@@ -24,11 +24,11 @@ on:
 # +----------+-------------------------+          +---------+---------+
 #            |                                              |
 #            |                   +-----------+--------------+
-#            |                   |           |              |                        
-#            |             +-----v----+ +----v-----+ +------v----------------+ 
-#            |             |A11Y-Tests| |Applitools| |Robot (chrome, firefox)| 
-#            |             +-----+----+ +----+-----+ +------+----------------+ 
-#            |                   |           |              |                         
+#            |                   |           |              |
+#            |             +-----v----+ +----v-----+ +------v----------------+
+#            |             |A11Y-Tests| |Applitools| |Robot (chrome, firefox)|
+#            |             +-----+----+ +----+-----+ +------+----------------+
+#            |                   |           |              |
 #            +-------------------+-----+-----+--------------+
 #                                      |
 #                   +----------+       |        +-------+
@@ -50,7 +50,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "14"
+          node-version: "16"
 
       - name: Install
         run: |
@@ -79,7 +79,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "14"
+          node-version: "16"
 
       - name: Install
         run: |
@@ -125,7 +125,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "14"
+          node-version: "16"
 
       - name: Fetch Storybook
         uses: actions/download-artifact@v1
@@ -175,7 +175,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "14"
+          node-version: "16"
 
       - name: Fetch Storybook
         uses: actions/download-artifact@v1

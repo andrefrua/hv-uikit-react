@@ -7,13 +7,13 @@
 Quickly build apps that follow the HV Design System's patterns and specifications.
 
 ![React 16.13](https://img.shields.io/badge/react-^16.13.1-blue.svg)
-![Node 14](https://img.shields.io/badge/node-14.15-brightgreen.svg)
+![Node 16](https://img.shields.io/badge/node-16.13.1-brightgreen.svg)
 ![License Apache 2](https://img.shields.io/badge/license-Apache%202-blue.svg)
-![Supported browsers: Chrome, Firefox, Safari, Edge, Internet Explorer](https://img.shields.io/badge/plataforms-chrome%20%7C%20firefox%20%7C%20safari%20%7C%20edge%20%7C%20ie%2011-blue.svg)
+![Supported browsers: Chrome, Firefox, Safari, Edge](https://img.shields.io/badge/plataforms-chrome%20%7C%20firefox%20%7C%20safari%20%7C%20edge-blue.svg)
 <br>
 ![Master Nightly build status](https://github.com/lumada-design/hv-uikit-react/workflows/Master%20Nightly/badge.svg)
 ![v2.x Nightly build status](https://github.com/lumada-design/hv-uikit-react/workflows/v2.x%20Nightly/badge.svg)
-![v1.x Nightly build status](https://github.com/lumada-design/hv-uikit-react/workflows/v1.x%20Nightly/badge.svg)
+
 
 </div>
 
@@ -69,7 +69,7 @@ npm install @hv/uikit-react-core@2.*
 The peer dependencies will also be different:
 
 ```shell
-npm install @material-ui/core@~4.8.0 plotly.js@>1.34.0
+npm install @material-ui/core@^4.11.0 plotly.js@>1.34.0
 ```
 
 ## Usage
@@ -138,10 +138,8 @@ The UI Kit is maintained by a small group of invaluable core contributors, with 
 - Paulo Lagoa([@plagoa](https://github.com/plagoa))
 - Francisco Guilherme ([@francisco-guilherme](https://github.com/frncisco-guilherme))
 - Elio Freitas ([@eliofreitas](https://github.com/eliofreitas))
-- Bruno Henriques ([@zettca](https://github.com/zettca))
 - Nelson Antunes ([@nantunes](https://github.com/nantunes))
-- Júlio Costa ([@jsccosta](https://github.com/jsccosta))
-- Hugo Figueira ([@hugompfigueira](https://github.com/hugompfigueira))
+- Jorge Fernandes ([@jorgefernandess](https://github.com/jorgefernandess))
 
 Get involved with our development by opening an issue or submitting a pull request. Read the contributing guidelines for information on how we develop.
 
