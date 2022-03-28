@@ -49,11 +49,19 @@ export default {
 export const Main = () => (
   <>
     <HvAvatar />
-    <HvAvatar backgroundColor="sema19">CS</HvAvatar>
-    <HvAvatar alt="Wayne" src={man2} />
     <HvAvatar backgroundColor="sema2">
       <LogIn color="atmo1" iconSize="XS" />
     </HvAvatar>
+    <HvAvatar backgroundColor="acce1" size="SM" variant="square">
+      CS
+    </HvAvatar>
+    <HvAvatar alt="Wayne" src={man2} size="MD" variant="square" />
+    <HvAvatar backgroundColor="acce1" size="MD" status="sema4">
+      CS
+    </HvAvatar>
+    <HvAvatar alt="Wayne" src={man2} size="MD" status="sema1" />
+    <HvAvatar alt="Wayne" src={man2} size="LG" badge="sema17" />
+    <HvAvatar alt="Wayne" src={man2} size="XL" status="sema10" />
   </>
 );
 
@@ -143,13 +151,15 @@ Fallbacks.parameters = {
 // eslint-disable-next-line react/prop-types
 export const Sizes = () => (
   <>
-    <HvAvatar backgroundColor="sema6" size="S">
+    <HvAvatar size="XS" />
+    <HvAvatar backgroundColor="sema6" size="SM">
       NA
     </HvAvatar>
-    <HvAvatar size="M" backgroundColor="sema3">
+    <HvAvatar size="MD" backgroundColor="sema3">
       <Bookmark iconSize="S" color="atmo1" />
     </HvAvatar>
-    <HvAvatar size="L" alt="Beatrice" src={woman1} />
+    <HvAvatar size="LG" alt="Beatrice" src={woman1} />
+    <HvAvatar size="XL" alt="Beatrice" src={woman1} />
   </>
 );
 
@@ -157,7 +167,7 @@ Sizes.parameters = {
   docs: {
     description: {
       story:
-        "You can change the size of the avatar with the size property (S, M, L). When using an icon avatar, preferably use as iconSize the size immediately below the avatar size.",
+        "You can change the size of the avatar with the size property (XS SM MD LG and XL). When using an icon avatar, preferably use as iconSize the size immediately below the avatar size.",
     },
   },
 };
